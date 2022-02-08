@@ -1,0 +1,6 @@
+train: /home/victor/data/data/train/images
+val: /home/victor/data/data/valid/images
+test: /home/victor/data/data/test/images
+
+nc: 1
+names: ['mask']
