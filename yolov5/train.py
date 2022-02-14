@@ -61,6 +61,9 @@ LOCAL_RANK = int(os.getenv('LOCAL_RANK', -1))  # https://pytorch.org/docs/stable
 RANK = int(os.getenv('RANK', -1))
 WORLD_SIZE = int(os.getenv('WORLD_SIZE', 1))
 
+#import wandb
+
+#wandb.init(project="FaceMaskRecognition", entity="goldentrex")
 
 def train(hyp,  # path/to/hyp.yaml or hyp dictionary
           opt,

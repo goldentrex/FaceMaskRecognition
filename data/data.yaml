@@ -1,6 +1,6 @@
-train: /home/victor/data/data/train/images
-val: /home/victor/data/data/valid/images
-test: /home/victor/data/data/test/images
+train: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/data/train/images
+val: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/data/valid/images
+test: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/data/test/images
 
 nc: 1
 names: ['mask']

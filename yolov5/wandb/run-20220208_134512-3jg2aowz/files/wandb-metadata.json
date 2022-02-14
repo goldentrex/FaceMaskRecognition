@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.2-arm64-arm-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-02-08T12:45:14.555999",
+    "startedAt": "2022-02-08T12:45:12.517426",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": [
+        "--data",
+        "../data/data.yaml",
+        "--cfg",
+        "yolov5s.yaml",
+        "--batch-size",
+        "15",
+        "--epochs",
+        "50"
+    ],
+    "state": "running",
+    "program": "/Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/train.py",
+    "codePath": "yolov5/train.py",
+    "git": {
+        "remote": "https://github.com/goldentrex/FaceMaskRecognition.git",
+        "commit": "50952df426ac925afd5e1191b5007d67ae241dcd"
+    },
+    "email": "g.victor@hotmail.fr",
+    "root": "/Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition",
+    "host": "MacBook-Pro-14-de-Victor.local",
+    "username": "victorgaya",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/bin/python3"
+}

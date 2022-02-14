@@ -1,0 +1,80 @@
+2022-02-08 13:45:12,798 INFO    MainThread:55132 [internal.py:wandb_internal():89] W&B internal server running at pid: 55132, started at: 2022-02-08 13:45:12.798415
+2022-02-08 13:45:12,799 INFO    WriterThread:55132 [datastore.py:open_for_write():77] open: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/run-3jg2aowz.wandb
+2022-02-08 13:45:12,799 DEBUG   HandlerThread:55132 [handler.py:handle_request():131] handle_request: check_version
+2022-02-08 13:45:12,800 DEBUG   SenderThread:55132 [sender.py:send():235] send: header
+2022-02-08 13:45:12,800 DEBUG   SenderThread:55132 [sender.py:send_request():249] send_request: check_version
+2022-02-08 13:45:13,511 DEBUG   SenderThread:55132 [sender.py:send():235] send: run
+2022-02-08 13:45:13,521 INFO    SenderThread:55132 [sender.py:_maybe_setup_resume():489] checking resume status for None/YOLOv5/3jg2aowz
+2022-02-08 13:45:14,546 INFO    SenderThread:55132 [dir_watcher.py:__init__():169] watching files in: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files
+2022-02-08 13:45:14,546 INFO    SenderThread:55132 [sender.py:_start_run_threads():809] run started: 3jg2aowz with start time 1644324312
+2022-02-08 13:45:14,551 DEBUG   SenderThread:55132 [sender.py:send():235] send: summary
+2022-02-08 13:45:14,551 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-08 13:45:14,554 DEBUG   HandlerThread:55132 [handler.py:handle_request():131] handle_request: run_start
+2022-02-08 13:45:14,555 DEBUG   HandlerThread:55132 [meta.py:__init__():36] meta init
+2022-02-08 13:45:14,555 DEBUG   HandlerThread:55132 [meta.py:__init__():50] meta init done
+2022-02-08 13:45:14,555 DEBUG   HandlerThread:55132 [meta.py:probe():210] probe
+2022-02-08 13:45:14,564 DEBUG   HandlerThread:55132 [meta.py:_setup_git():200] setup git
+2022-02-08 13:45:14,592 DEBUG   HandlerThread:55132 [meta.py:_setup_git():207] setup git done
+2022-02-08 13:45:14,592 DEBUG   HandlerThread:55132 [meta.py:_save_pip():54] save pip
+2022-02-08 13:45:14,593 DEBUG   HandlerThread:55132 [meta.py:_save_pip():68] save pip done
+2022-02-08 13:45:14,593 DEBUG   HandlerThread:55132 [meta.py:_save_conda():75] save conda
+2022-02-08 13:45:15,349 DEBUG   HandlerThread:55132 [meta.py:_save_conda():85] save conda done
+2022-02-08 13:45:15,350 DEBUG   HandlerThread:55132 [meta.py:probe():248] probe done
+2022-02-08 13:45:15,388 DEBUG   SenderThread:55132 [sender.py:send():235] send: telemetry
+2022-02-08 13:45:15,388 DEBUG   SenderThread:55132 [sender.py:send():235] send: files
+2022-02-08 13:45:15,388 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-08 13:45:15,390 DEBUG   HandlerThread:55132 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-08 13:45:15,390 DEBUG   SenderThread:55132 [sender.py:send_request():249] send_request: stop_status
+2022-02-08 13:45:15,548 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/conda-environment.yaml
+2022-02-08 13:45:15,548 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:15,548 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/wandb-metadata.json
+2022-02-08 13:45:15,548 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/wandb-summary.json
+2022-02-08 13:45:15,548 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/requirements.txt
+2022-02-08 13:45:16,019 DEBUG   SenderThread:55132 [sender.py:send():235] send: config
+2022-02-08 13:45:16,948 INFO    Thread-11 :55132 [upload_job.py:push():137] Uploaded file /var/folders/fw/qtlwtdfn5rn3bgtbsswn5xy80000gn/T/tmpuw7sbxnpwandb/eoykp5fj-wandb-metadata.json
+2022-02-08 13:45:17,558 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:21,581 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:23,591 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:25,602 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:27,621 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:31,034 DEBUG   HandlerThread:55132 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-08 13:45:31,035 DEBUG   SenderThread:55132 [sender.py:send_request():249] send_request: stop_status
+2022-02-08 13:45:31,641 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:35,660 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:37,669 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:39,685 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:41,696 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:43,703 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:44,709 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/config.yaml
+2022-02-08 13:45:45,714 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:46,502 DEBUG   HandlerThread:55132 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-08 13:45:46,502 DEBUG   SenderThread:55132 [sender.py:send_request():249] send_request: stop_status
+2022-02-08 13:45:47,724 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:50,792 DEBUG   SenderThread:55132 [sender.py:send():235] send: summary
+2022-02-08 13:45:50,793 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-08 13:45:50,793 DEBUG   SenderThread:55132 [sender.py:send():235] send: summary
+2022-02-08 13:45:50,793 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-08 13:45:50,793 DEBUG   SenderThread:55132 [sender.py:send():235] send: summary
+2022-02-08 13:45:50,794 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-08 13:45:50,794 DEBUG   SenderThread:55132 [sender.py:send():235] send: summary
+2022-02-08 13:45:50,794 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-08 13:45:50,794 DEBUG   SenderThread:55132 [sender.py:send():235] send: summary
+2022-02-08 13:45:50,794 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-08 13:45:50,794 DEBUG   SenderThread:55132 [sender.py:send():235] send: files
+2022-02-08 13:45:50,794 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file media/images/Labels_0_0.jpg with policy now
+2022-02-08 13:45:50,794 DEBUG   SenderThread:55132 [sender.py:send():235] send: files
+2022-02-08 13:45:50,794 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file media/images/Labels_0_1.jpg with policy now
+2022-02-08 13:45:50,823 DEBUG   SenderThread:55132 [sender.py:send():235] send: history
+2022-02-08 13:45:50,824 DEBUG   SenderThread:55132 [sender.py:send():235] send: summary
+2022-02-08 13:45:50,824 INFO    SenderThread:55132 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-08 13:45:51,747 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/wandb-summary.json
+2022-02-08 13:45:51,747 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:51,747 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/media/images/Labels_0_0.jpg
+2022-02-08 13:45:51,747 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/media/images/Labels_0_1.jpg
+2022-02-08 13:45:51,748 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/media
+2022-02-08 13:45:51,748 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/media/images
+2022-02-08 13:45:52,085 INFO    Thread-13 :55132 [upload_job.py:push():137] Uploaded file /var/folders/fw/qtlwtdfn5rn3bgtbsswn5xy80000gn/T/tmpuw7sbxnpwandb/2hrbnstm-media/images/Labels_0_1.jpg
+2022-02-08 13:45:52,085 INFO    Thread-12 :55132 [upload_job.py:push():137] Uploaded file /var/folders/fw/qtlwtdfn5rn3bgtbsswn5xy80000gn/T/tmpuw7sbxnpwandb/1ezc482u-media/images/Labels_0_0.jpg
+2022-02-08 13:45:55,765 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
+2022-02-08 13:45:56,032 DEBUG   SenderThread:55132 [sender.py:send():235] send: stats
+2022-02-08 13:45:57,773 INFO    Thread-8  :55132 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/victorgaya/Documents/Cours/M2/computer_vision/FaceMaskRecognition/yolov5/wandb/run-20220208_134512-3jg2aowz/files/output.log
