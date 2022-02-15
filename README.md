@@ -7,9 +7,12 @@ We aim to detect 3 classes:
 
 This project was led by three student at ISEN: **Victor GAYA, Cyril DELANNOY, Arnaud FRANCOISE**
 
+# Code
+FaceMaskDetection.ipynb: Notebook presenting the IA aspect of the project
+ImaginaryMask.ipynb: Notebook to put a virtual mask on detected faces which can be use to improve to the project with data augmentation.
 ## Dataset description
 * First we used a kaggle dataset to improve our model.
-* Then we created our dataset by filming and anoting videos
+* Then we created our dataset by filming and anoting videos (thank you supervise.ly !)
 
 
 ## Results
