@@ -5,7 +5,7 @@ We aim to detect 3 classes:
 - BadMask: the mask is not correctly wore
 - NoMask: no mask is wore
 
-This project was led by three student at ISEN: Victor GAYA, Cyril DELANNOY, Arnaud FRANCOISE
+This project was led by three student at ISEN: **Victor GAYA, Cyril DELANNOY, Arnaud FRANCOISE**
 
 ## Dataset description
 * First we used a kaggle dataset to improve our model.
